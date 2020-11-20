@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplicationCRUD.Models;
+using WebApplicationCRUD.Models.ViewModels;
 
 namespace WebApplicationCRUD.Controllers {
     public class HomeController : Controller {
