@@ -22,6 +22,8 @@ namespace WebApplicationCRUD.Models {
         [Required(ErrorMessage = "O status é requerido")]
         [Display(Name = "Status da venda")]
         public SaleStatus Status { get; set; }
+
+        [Display(Name = "Vendedor(a)")]
         public Seller Seller { get; set; }
 
         public SalesRecord() { }
