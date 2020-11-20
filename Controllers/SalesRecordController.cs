@@ -4,6 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApplicationCRUD.Services;
+using WebApplicationCRUD.Models;
+using WebApplicationCRUD.Models.ViewModels;
+using Microsoft.EntityFrameworkCore;
+using WebApplicationCRUD.Services.Exceptions;
+using System.Diagnostics;
+
 
 namespace WebApplicationCRUD.Controllers {
     public class SalesRecordController : Controller {
