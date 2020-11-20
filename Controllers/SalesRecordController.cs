@@ -9,7 +9,7 @@ namespace WebApplicationCRUD.Controllers {
     public class SalesRecordController : Controller {
         private readonly SalesRecordService _salesRecordService;
 
-        public SalesRecordsController(SalesRecordService salesRecordService) {
+        public SalesRecordController(SalesRecordService salesRecordService) {
             _salesRecordService = salesRecordService;
         }
 
